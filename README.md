@@ -1,15 +1,35 @@
 <div align="center">
 
 ```
- █████╗ ██╗   ██╗██████╗  ██████╗ ██████╗  █████╗     ████████╗██╗   ██╗██████╗ ███████╗
-██╔══██╗██║   ██║██╔══██╗██╔═══██╗██╔══██╗██╔══██╗    ╚══██╔══╝╚██╗ ██╔╝██╔══██╗██╔════╝
-███████║██║   ██║██████╔╝██║   ██║██████╔╝███████║       ██║    ╚████╔╝ ██████╔╝█████╗
-██╔══██║██║   ██║██╔══██╗██║   ██║██╔══██╗██╔══██║       ██║     ╚██╔╝  ██╔═══╝ ██╔══╝
-██║  ██║╚██████╔╝██║  ██║╚██████╔╝██║  ██║██║  ██║       ██║      ██║   ██║     ███████╗
-╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝       ╚═╝      ╚═╝   ╚═╝     ╚══════╝
+      ___           ___           ___           ___           ___           ___     
+     /\  \         /\__\         /\  \         /\  \         /\  \         /\  \    
+    /::\  \       /:/  /        /::\  \       /::\  \       /::\  \       /::\  \   
+   /:/\:\  \     /:/  /        /:/\:\  \     /:/\:\  \     /:/\:\  \     /:/\:\  \  
+  /::\~\:\  \   /:/  /  ___   /::\~\:\  \   /:/  \:\  \   /::\~\:\  \   /::\~\:\  \ 
+ /:/\:\ \:\__\ /:/__/  /\__\ /:/\:\ \:\__\ /:/__/ \:\__\ /:/\:\ \:\__\ /:/\:\ \:\__\
+ \/__\:\/:/  / \:\  \ /:/  / \/_|::\/:/  / \:\  \ /:/  / \/_|::\/:/  / \/__\:\/:/  /
+      \::/  /   \:\  /:/  /     |:|::/  /   \:\  /:/  /     |:|::/  /       \::/  / 
+      /:/  /     \:\/:/  /      |:|\/__/     \:\/:/  /      |:|\/__/        /:/  /  
+     /:/  /       \::/  /       |:|  |        \::/  /       |:|  |         /:/  /   
+     \/__/         \/__/         \|__|         \/__/         \|__|         \/__/    
+
+      ___           ___           ___           ___     
+     /\  \         |\__\         /\  \         /\  \    
+     \:\  \        |:|  |       /::\  \       /::\  \   
+      \:\  \       |:|  |      /:/\:\  \     /:/\:\  \  
+      /::\  \      |:|__|__   /::\~\:\  \   /::\~\:\  \ 
+     /:/\:\__\     /::::\__\ /:/\:\ \:\__\ /:/\:\ \:\__\
+    /:/  \/__/    /:/~~/~    \/__\:\/:/  / \:\~\:\ \/__/
+   /:/  /        /:/  /           \::/  /   \:\ \:\__\  
+   \/__/         \/__/             \/__/     \:\ \/__/  
+                                              \:\__\    
+                                               \/__/    
+
 ```
 
-**A typing speed test that doesn't look like every other typing speed test.**
+### *A typing speed test that doesn't look like every other typing speed test.*
+
+<br>
 
 [![Next.js](https://img.shields.io/badge/Next.js_14-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
@@ -21,122 +41,205 @@
 
 <br>
 
-## What this is
+---
 
-Aurora Type is a glassmorphism typing speed test — Time, Words, Zen, and Custom-text modes, live WPM/accuracy analytics, and an arcade mode called **Block Defence** where you destroy falling word-blocks before they cross the kill line.
+## ✦ Overview
 
-It's built on a simple idea: a typing test is the one app where the *interaction itself* is the entire product. So the caret glides between characters instead of jumping, mistakes flash like a hairline crack in glass, and the whole thing sits on a slow-drifting aurora gradient that never quite repeats. Nothing about it should feel like it's fighting you to get a number on the screen.
+Aurora Type is a glassmorphism-styled typing speed test built around a single principle: the *interaction itself* is the product. Featuring Time, Words, Zen, and Custom-text modes, live WPM/accuracy analytics, and **Block Defence** — an arcade mode where you destroy falling word-blocks before they cross the kill line.
 
-<br>
-
-## Features
-
-**Test modes**
-- Time (15 / 30 / 60 / 120s), Words (10 / 25 / 50 / 100), Zen (untimed), and Custom (paste your own text)
-- Three word pools — Common, Programming terms, Quotes — plus Punctuation, Numbers, and Capitalization toggles
-- An Advanced difficulty that mixes symbols and digits into generated words
-
-**Block Defence**
-- Falling word-blocks you destroy by typing them before they cross the kill line
-- A draggable vertical speed slider — set your own pace, with a one-click reset to default
-- A combo system that rewards consecutive kills, plus power-up blocks (2x score) and debuff blocks (mirrored text)
-- A difficulty curve that actually ramps over a couple of minutes instead of maxing out in the first ten seconds
-
-**Analytics that stick around**
-- Live WPM/accuracy while you type, a full post-test breakdown (correct / incorrect / missed / extra, WPM-over-time chart, words to practice)
-- Personal bests tracked per mode and surfaced right on the results screen — not buried in a database you never look at
-
-**Two themes, actually designed for both**
-- Aurora (dark) and Daybreak (light), with accent colors independently tuned for contrast in each — not just one palette with the lights inverted
-
-**Focus mode**
-- Press Enter before a test starts to drop into a real fullscreen, distraction-free view with a large live word-progress counter and WPM display — Esc exits, same as any other fullscreen content
+The caret glides between characters instead of jumping. Mistakes flash like a hairline crack in glass. The entire experience sits on a slow-drifting aurora gradient that never quite repeats. Nothing should feel like it's fighting you to get a number on the screen.
 
 <br>
 
-## Tech stack
+---
 
-| | |
-|---|---|
+## ✦ Features
+
+### 🎯 Test Modes
+
+| Mode | Description |
+|------|-------------|
+| **Time** | 15 / 30 / 60 / 120 second sprints |
+| **Words** | Fixed sets of 10 / 25 / 50 / 100 words |
+| **Zen** | Untimed, pressure-free practice |
+| **Custom** | Paste any text and test against it |
+
+**Word pools** — Common, Programming terms, Quotes — with Punctuation, Numbers, Capitalization, and Advanced difficulty toggles that blend symbols and digits into generated words.
+
+<br>
+
+### 🕹️ Block Defence
+
+A full arcade mode built into the same app:
+
+- Falling word-blocks destroyed by typing them before they cross the kill line
+- Draggable vertical speed slider with one-click reset
+- Combo system rewarding consecutive kills
+- Power-up blocks (2× score) and debuff blocks (mirrored text)
+- Difficulty curve that ramps over minutes, not seconds
+
+<br>
+
+### 📊 Analytics
+
+- Live WPM and accuracy overlay while you type
+- Full post-test breakdown — correct / incorrect / missed / extra characters
+- WPM-over-time chart via Recharts
+- Words to practice, surfaced automatically from your mistakes
+- Personal bests tracked per mode, shown directly on the results screen
+
+<br>
+
+### 🎨 Themes
+
+| Theme | Description |
+|-------|-------------|
+| **Aurora** | Dark — deep gradients, glowing accents |
+| **Daybreak** | Light — clean whites, independently tuned contrast |
+
+Both themes are fully designed, not just one palette with the lights inverted.
+
+<br>
+
+### ⌨️ Focus Mode
+
+Press `Enter` before a test to enter true fullscreen — large live word-progress counter, live WPM display, zero distractions. `Esc` exits.
+
+<br>
+
+---
+
+## ✦ Tech Stack
+
+| Layer | Technology |
+|-------|------------|
 | **Framework** | Next.js 14 (App Router, TypeScript) |
 | **Styling** | Tailwind CSS + custom CSS variables for theming |
-| **Animation** | Framer Motion — shared-layout transitions for the caret, mode pills, and selection dots |
-| **State** | Zustand, persisted to `localStorage` with manual rehydration (no SSR/hydration mismatch) |
+| **Animation** | Framer Motion — shared-layout caret, mode pills, selection dots |
+| **State** | Zustand, persisted to `localStorage` with manual rehydration |
 | **Charts** | Recharts |
 | **Icons** | Lucide |
 
 <br>
 
-## Getting started
+---
+
+## ✦ Getting Started
 
 ```bash
+# Install dependencies
 npm install
+
+# Start the development server
 npm run dev
 ```
 
-Open **http://localhost:3000**.
+Open **[http://localhost:3000](http://localhost:3000)** in your browser.
 
 ```bash
-npm run build   # production build
-npm run start   # serve the production build
+# Production build
+npm run build
+
+# Serve the production build
+npm run start
 ```
 
-> Fonts (Sora, Space Mono) load from Google Fonts at build time via `next/font/google` — this needs network access once, same as any normal dev machine or CI runner.
+> **Note:** Fonts (Sora, Space Mono) load from Google Fonts at build time via `next/font/google` — requires network access once, same as any standard dev machine or CI runner.
 
-### Deploying
+<br>
+
+### 🚀 Deploying
 
 ```bash
 npm install -g vercel
 vercel
 ```
 
-Or push to GitHub and import the repo at [vercel.com/new](https://vercel.com/new). No environment variables required.
+Or push to GitHub and import the repo at [vercel.com/new](https://vercel.com/new).
+**No environment variables required.**
 
 <br>
 
-## Project structure
+---
+
+## ✦ Project Structure
 
 ```
 src/
-├── app/                  Root layout, global styles, the page itself
+├── app/                  Root layout, global styles, page entry
 ├── components/
 │   ├── layout/           Header, background, settings drawer, glass container
-│   ├── typing/           The typing test surface and its live stats
-│   ├── game/             Block Defence (presentational only)
+│   ├── typing/           Typing test surface and live stats overlay
+│   ├── game/             Block Defence (presentational layer only)
 │   └── stats/            Post-test results dashboard
 ├── lib/
-│   ├── hooks/            useTypingEngine, useBlockDefenseGame — all game
-│   │                     logic lives here; components just render the output
-│   ├── stores/           Zustand stores + the hydration guard
-│   ├── constants.ts      Shared tunables, not scattered magic numbers
+│   ├── hooks/            useTypingEngine, useBlockDefenseGame
+│   │                     All game logic lives here; components only render
+│   ├── stores/           Zustand stores + hydration guard
+│   ├── constants.ts      Shared tunables — no scattered magic numbers
 │   ├── wordLists.ts
 │   └── utils.ts
 └── types/
 ```
 
-Each mode's logic is isolated in a hook that owns its state and exposes plain data and handlers. The component is purely presentational. Same shape for both modes, easy to extend later.
+Each mode's logic is isolated in a hook that owns its state and exposes plain data and handlers. Components are purely presentational — same shape for both modes, straightforward to extend.
 
 <br>
 
-## Roadmap
+---
 
-A few things from the original brief are deliberately not in yet:
+## ✦ Roadmap
 
-- [ ] Live multiplayer race
-- [ ] Custom word-list upload
-- [ ] Keypress sound packs
-- [ ] Keyboard heatmap
+| Feature | Status |
+|---------|--------|
+| Live multiplayer race | `planned` |
+| Custom word-list upload | `planned` |
+| Keypress sound packs | `planned` |
+| Keyboard heatmap | `planned` |
 
-None of these need a rewrite to add — the architecture already has a slot for each.
+None of these require a rewrite — the architecture already has a natural slot for each.
 
-See [`CHANGELOG.md`](CHANGELOG.md) for the engineering-level history of what's changed and why.
+See [`CHANGELOG.md`](CHANGELOG.md) for the full engineering history of what's changed and why.
 
 <br>
+
+---
+
+## 📬 Contact
 
 <div align="center">
 
-**Dev Thakur** • Premium Interactive Experience
+[![Email](https://img.shields.io/badge/📧_Email-90dthakur@gmail.com-EA4335?style=for-the-badge)](mailto:90dthakur@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-dev--thakur90-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/dev-thakur90)
+[![GitHub](https://img.shields.io/badge/🐙_GitHub-DEVTHAKUR--90-181717?style=for-the-badge)](https://github.com/DEVTHAKUR-90)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-devthakur.vercel.app-7C3AED?style=for-the-badge)](https://devthakur.vercel.app)
 
-If this was useful or you just like the way it feels, a ⭐ helps more than you'd think.
+</div>
+
+<br>
+
+---
+
+## 📄 License
+
+Open source under the [MIT License](LICENSE).
+
+<br>
+
+---
+
+<div align="center">
+
+<br>
+
+⭐ **Star this repo if you found it useful** ⭐
+
+<br>
+
+<img src="https://img.shields.io/badge/Built_with-❤️_by_Dev_Thakur-7C3AED?style=for-the-badge" />
+
+<br><br>
+
+<sub>© 2026 Dev Thakur. All rights reserved.</sub>
 
 </div>
