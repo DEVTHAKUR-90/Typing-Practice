@@ -26,6 +26,8 @@
 
 </div>
 
+<div align="center">
+        
 ### *A typing speed test that doesn't look like every other typing speed test.*
 
 <br>
