@@ -9,9 +9,9 @@
    ██║      ██║   ██║     ██║██║ ╚████║╚██████╗
    ╚═╝      ╚═╝   ╚═╝     ╚═╝╚═╝  ╚═══╝ ╚═════╝
 
-                 TYPING PRACTICE
-        ─────────────────────────────────
-              Speed • Accuracy • Focus
+TYPING PRACTICE
+─────────────────────────────────
+Speed • Accuracy • Focus
 </pre>
 
 </div>
